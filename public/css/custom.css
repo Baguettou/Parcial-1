@@ -21,15 +21,19 @@ body {
 
 /* Navbar styles */
 .navbar {
-    background-color: #ffab57; /* Set the background color to the base color */
-    color: #ffab57; /* Set the background color to the base color */
+    background-color: #fddcbb !important;; /* Set the background color to the base color */
+    color: #fddcbb !important;; /* Set the background color to the base color */
 }
 
 .navbar-default {
-    background: #ffab57;
+    background: #fddcbb !important;
   }
 
 /* Navbar link styles */
 .navbar-nav .nav-link {
     color: #222222; /* Set the text color to white */
 }
+
+nav a:hover {
+    color: #FF8A00 !important;
+  }
