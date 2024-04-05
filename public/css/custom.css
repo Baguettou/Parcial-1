@@ -1,0 +1,35 @@
+/* Definir variables de color */
+:root {
+    --color-base: #FF8A00;
+    --color-text: #333;
+    --color-background: #fff;
+    /* Agrega más variables de color si es necesario */
+}
+
+/* Estilos generales */
+body {
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+/* Estilos específicos */
+.btn-primary {
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: #fff;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #ffab57; /* Set the background color to the base color */
+    color: #ffab57; /* Set the background color to the base color */
+}
+
+.navbar-default {
+    background: #ffab57;
+  }
+
+/* Navbar link styles */
+.navbar-nav .nav-link {
+    color: #222222; /* Set the text color to white */
+}
